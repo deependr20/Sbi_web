@@ -18,7 +18,7 @@ const Navbar = () => {
                             <Link className='hover:text-blue-300' href="">Downloads</Link>
                             <Link className='
                             hover:text-blue-300' href="">Teams</Link>
-                            <button className='bg-[#20CAFD] text-white rounded-full  py-2 px-4'>Contact Us</button>
+                            <button className='bg-[#20CAFD] text-white rounded-full  py-2 px-4'>Contact Us <i class="ri-arrow-right-up-line"></i></button>
                     </div>
                     <div className='xl:hidden  flex'>
                     <i onClick={()=> setvisible(prev=> !prev)} className="ri-menu-line text-3xl"></i>
