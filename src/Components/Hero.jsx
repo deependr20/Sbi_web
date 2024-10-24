@@ -10,31 +10,31 @@ const Hero = () => {
                 <div className="w-1/2 relative  h-full flex items-center justify-center">
                     <div className='absolute'>
                         <img
-                            className="relative lg:left-16 md:left-12 left-4  w-[95%]"
+                            className="relative lg:left-16 md:left-12 left-4  w-[98%]"
                             src="src/assets/home/SBIImage.webp"
                             alt="SBI Circle"
                         />
                         <div className='absolute  md:top-16 sm:top-12 md:left-4 sm:-left-8 -left-24 top-8 '>
-                                <div className='relative left-24 bg-white rounded-full p-[5px]'>
+                                <div className='relative md:left-24 left-32 bg-white rounded-full p-[5px]'>
                                    <img className='w-8' src="src/assets/home/bnIcon1.webp" alt="" />
                                 </div>
-                                <div className='relative -top-8 left-48 bg-white flex rounded-full justify-center p-[8px]'>
+                                <div className='relative -top-8 md:left-48 left-52 bg-white flex rounded-full justify-center p-[8px]'>
                                    <img className='w-6 ' src="src/assets/home/bnIcon3.webp" alt="" />
                                 </div>
                                 
-                                <div className='relative top-7 left-24 bg-white flex rounded-full justify-center p-[8px]'>
+                                <div className='relative md:top-7 top-1 md:left-24 left-32 bg-white flex rounded-full justify-center p-[8px]'>
                                    <img className='w-6 ' src="src/assets/home/bnIcon2.webp" alt="" />
                                 </div>
-                                <div className='relative top-6 left-[14.6rem] bg-white flex rounded-full justify-center p-[8px]'>
+                                <div className='relative md:top-6 top-2 md:left-[14.6rem] left-52 bg-white flex rounded-full justify-center p-[8px]'>
                                    <img className='w-6 ' src="src/assets/home/bnIcon4.webp" alt="" />
                                 </div>
-                                <div className='relative bottom-44 left-[17rem] bg-white flex rounded-full justify-center p-[8px]'>
+                                <div className='relative bottom-44 md:left-[17rem] left-[16.5rem] bg-white flex rounded-full justify-center p-[8px]'>
                                 <img className='w-5 ' src="src/assets/home/bnIcon5.webp" alt="" />
                                 </div>
                         </div>
                     </div>
                      <img
-                        className="absolute bottom-16 right-2 w-[40%]  z-20"
+                        className="absolute bottom-16 right-2 md:w-[40%] w-[60%]  z-20"
                         src="src/assets/home/BanneRight.webp"
                         alt="Right Banner" />
                 </div>
