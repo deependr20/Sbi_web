@@ -5,7 +5,7 @@ const Hero = () => {
         <div className="bg-[url('src/assets/home/homeBanner.webp')] mt-3 bg-cover   w-full h-[55vh] md:h-[65vh] relative">
             <div className="max-w-[1180px] mx-auto flex items-center justify-between h-full px-8 relative">
                 <div className="w-1/2  text-white z-10 relative">
-                    <h1 className='lg:text-[3.5rem]  md:text-[3rem] sm:text-[2.7rem] text-[2.3rem] leading-[40px] sm:leading-[55px] lg:leading-[65px] font-semibold'>A subsidiary of State Bank of India</h1>
+                    <h1 className='lg:text-[3.5rem]  md:text-[3rem] sm:text-[2.7rem] text-[2rem] leading-[40px] sm:leading-[55px] lg:leading-[65px] font-semibold'>A subsidiary of State Bank of India</h1>
                 </div>
                 <div className="w-1/2 relative  h-full flex items-center justify-center">
                     <div className='absolute'>
